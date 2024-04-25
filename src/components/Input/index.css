@@ -1,0 +1,16 @@
+.input-wrapper input {
+    padding: 10px;
+    border:1px solid lightgrey;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 100%;    
+}
+.input-wrapper input:focus{
+    outline: none;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}

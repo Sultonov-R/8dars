@@ -1,0 +1,19 @@
+.plus span {
+    padding: 3px 5px;
+    border-radius: 6px;
+    border: 2px solid lightgrey;
+    border-color: #2684FF;
+    font-size: 14px;
+
+    
+}
+.button-add{
+    display: flex;
+    width: 150px;
+    gap: 10px;
+    color: #2684FF;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+}
