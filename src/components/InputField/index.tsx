@@ -7,7 +7,7 @@ interface Input {
 }
 
 
-const InputText:FC<Input>=(props)=> {
+const InputText:FC<Input>=()=> {
   return (
     <div className="wrapper">
       <div>

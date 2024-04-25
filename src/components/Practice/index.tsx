@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import Button from "../Button";
 import InputText from "../InputField";
@@ -11,7 +11,7 @@ function Practice() {
     setItems([...items, "New Item"]);
   }
 
-  function handleDragEnd(result: any) {
+  function handleDragEnd() {
     
   }
 
@@ -20,7 +20,7 @@ function Practice() {
       <div className="practice-wrapper">
         <h2>Loyiha ketma-ketligi</h2>
         <Droppable droppableId="droppable">
-  {(provided, snapshot) => (
+  {(provided,) => (
     <div
       ref={provided.innerRef}
       {...provided.droppableProps}
